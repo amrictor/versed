@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7eae861237136c15f723c5acc423a3d4",
+    "revision": "b38ee8b4e884eb1cb7d4e3c061ceb1ed",
     "url": "/lyrics-quiz/index.html"
   },
   {
-    "revision": "74c610ac6068c7a5e7ab",
+    "revision": "72c59ff727e5065a9ea2",
     "url": "/lyrics-quiz/static/css/main.6a83690c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lyrics-quiz/static/js/2.123641a7.chunk.js.LICENSE"
   },
   {
-    "revision": "74c610ac6068c7a5e7ab",
-    "url": "/lyrics-quiz/static/js/main.92942c7d.chunk.js"
+    "revision": "72c59ff727e5065a9ea2",
+    "url": "/lyrics-quiz/static/js/main.161df1c6.chunk.js"
   },
   {
     "revision": "990f0f2817cf1c0ede33",
