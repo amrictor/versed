@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lyrics-quiz/static/css/main.3106d273.chunk.css",
+    "main.css": "/lyrics-quiz/static/css/main.1b001984.chunk.css",
     "main.js": "/lyrics-quiz/static/js/main.2d2a3a52.chunk.js",
     "main.js.map": "/lyrics-quiz/static/js/main.2d2a3a52.chunk.js.map",
     "runtime-main.js": "/lyrics-quiz/static/js/runtime-main.39d12c6c.js",
@@ -8,15 +8,15 @@
     "static/js/2.123641a7.chunk.js": "/lyrics-quiz/static/js/2.123641a7.chunk.js",
     "static/js/2.123641a7.chunk.js.map": "/lyrics-quiz/static/js/2.123641a7.chunk.js.map",
     "index.html": "/lyrics-quiz/index.html",
-    "precache-manifest.95e2d6c00692a2fcefccf079a6825835.js": "/lyrics-quiz/precache-manifest.95e2d6c00692a2fcefccf079a6825835.js",
+    "precache-manifest.b7243be3884c77f338522e9f1b42d02a.js": "/lyrics-quiz/precache-manifest.b7243be3884c77f338522e9f1b42d02a.js",
     "service-worker.js": "/lyrics-quiz/service-worker.js",
-    "static/css/main.3106d273.chunk.css.map": "/lyrics-quiz/static/css/main.3106d273.chunk.css.map",
+    "static/css/main.1b001984.chunk.css.map": "/lyrics-quiz/static/css/main.1b001984.chunk.css.map",
     "static/js/2.123641a7.chunk.js.LICENSE": "/lyrics-quiz/static/js/2.123641a7.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.39d12c6c.js",
     "static/js/2.123641a7.chunk.js",
-    "static/css/main.3106d273.chunk.css",
+    "static/css/main.1b001984.chunk.css",
     "static/js/main.2d2a3a52.chunk.js"
   ]
 }
