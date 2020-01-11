@@ -1,0 +1,49 @@
+#outer_display {
+   margin: auto;
+    #display {
+        height: 90vh;
+        margin:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin:20px;
+        
+        #info {
+            margin: 5px;
+            * {
+                margin: 0px 5px;
+            }
+        }
+        #lyrics {
+            overflow-y: auto;
+            padding-right: 5px;
+            // margin: 10px 50px;
+            // border: 2px black solid;
+            display: flex;
+            justify-content: left;
+            flex-wrap: wrap;
+            .word {
+                margin: 3px 2px;
+                padding: 0px 3px;
+                font-size: 18ipx;
+                background-color: #cacaca;
+                border-radius: 3px;
+                // border: 0.1px black solid;
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                transition: .02s;
+                &.forfeit {
+                    color: red;
+                }
+                &.undiscovered {
+                    color: transparent;
+                }
+            }
+        }
+    }
+    
+}
