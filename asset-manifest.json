@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/lyrics-quiz/static/css/main.c95a07f7.chunk.css",
-    "main.js": "/lyrics-quiz/static/js/main.f8a6a040.chunk.js",
-    "main.js.map": "/lyrics-quiz/static/js/main.f8a6a040.chunk.js.map",
+    "main.css": "/lyrics-quiz/static/css/main.a7aae53e.chunk.css",
+    "main.js": "/lyrics-quiz/static/js/main.ae09d8ad.chunk.js",
+    "main.js.map": "/lyrics-quiz/static/js/main.ae09d8ad.chunk.js.map",
     "runtime-main.js": "/lyrics-quiz/static/js/runtime-main.39d12c6c.js",
     "runtime-main.js.map": "/lyrics-quiz/static/js/runtime-main.39d12c6c.js.map",
     "static/js/2.123641a7.chunk.js": "/lyrics-quiz/static/js/2.123641a7.chunk.js",
     "static/js/2.123641a7.chunk.js.map": "/lyrics-quiz/static/js/2.123641a7.chunk.js.map",
     "index.html": "/lyrics-quiz/index.html",
-    "precache-manifest.3713c180a885a858bab51ee0a515c7f6.js": "/lyrics-quiz/precache-manifest.3713c180a885a858bab51ee0a515c7f6.js",
+    "precache-manifest.2206c98196577d295c31f02dc751155a.js": "/lyrics-quiz/precache-manifest.2206c98196577d295c31f02dc751155a.js",
     "service-worker.js": "/lyrics-quiz/service-worker.js",
-    "static/css/main.c95a07f7.chunk.css.map": "/lyrics-quiz/static/css/main.c95a07f7.chunk.css.map",
+    "static/css/main.a7aae53e.chunk.css.map": "/lyrics-quiz/static/css/main.a7aae53e.chunk.css.map",
     "static/js/2.123641a7.chunk.js.LICENSE": "/lyrics-quiz/static/js/2.123641a7.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.39d12c6c.js",
     "static/js/2.123641a7.chunk.js",
-    "static/css/main.c95a07f7.chunk.css",
-    "static/js/main.f8a6a040.chunk.js"
+    "static/css/main.a7aae53e.chunk.css",
+    "static/js/main.ae09d8ad.chunk.js"
   ]
 }
