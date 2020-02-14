@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
 /* width */
 ::-webkit-scrollbar {
     z-index: 1!important;
@@ -31,7 +33,20 @@
     cursor:pointer;
 }
 
+#home {
+    margin: auto;
+    .big {
+        width: 100%;
+        max-width: 100%;
+        font-size: 40px;
+    }
+    * {
+        margin:auto;
+        max-width: 90%;
+    }
+}
 input {
+    height: 28px!important;
     padding: 3px;
     outline: none;
     border-radius: 5px;  
@@ -42,16 +57,53 @@ input {
     &:focus {
         border: 1.5px solid black;
         box-shadow: 2px 2px red;
-    }       
+    }
+    &:disabled {
+        background: darken(white, 15%)
+    }    
+}
+button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: 2px solid black; 
+    cursor: pointer;
+    transition: .2s;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    &:hover {
+        // color: black;
+        background-color: red;
+        border: 2px solid red; 
+    }
+    &:disabled {
+        background-color: lighten(black, 20%);
+        border: 2px solid lighten(black, 20%); 
+        cursor: default;
+    }
 }
 
 #game {
     height: 100vh;
     display: flex;
-    #menu {
-        color: white;
-    }
-    div {
-        max-width: 800px;
+
+    #apptitle {
+        font-family: 'Pacifico', cursive !important;
+        font-size: 28px;
+        cursor: pointer;
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none; /* Non-prefixed version, currently
+                            supported by Chrome, Opera and Firefox */
     }
 }

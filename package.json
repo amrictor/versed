@@ -1,5 +1,5 @@
 {
-  "homepage": "http://yuribenjamin.github.io/my-app",
+  "homepage": "http://lyrics.amrictor.com",
   "name": "lyrics-quiz",
   "version": "0.1.0",
   "private": true,
@@ -7,12 +7,15 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
+    "cheerio": "^1.0.0-rc.3",
     "node-sass": "^4.13.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-icons": "^3.8.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",
-    "reactstrap": "^8.2.0"
+    "reactstrap": "^8.2.0",
+    "xml2js": "^0.4.23"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,0 +1,9 @@
+#timer {
+    font-weight: bold;
+    &.forfeit {
+        color: red;
+    }
+    &.won {
+        color: green;
+    }
+}

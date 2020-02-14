@@ -1,0 +1,107 @@
+#modal {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #body {
+        background: white;
+        border-radius: 10px;
+        max-width: 50%;
+        max-height: 70%;
+        padding: 10px 0px;
+        #title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #songs {
+            #loading {
+                margin: auto;
+            }
+            &.empty {
+                max-height: 0px !important;
+                padding: 0px;
+            }
+            &::-webkit-scrollbar-thumb {
+                background-color: red;
+            }
+            background-color: white;
+            color: black;
+            margin: 5px 20px;
+            padding: 5px;
+            border-radius: 5px;
+            height: 40vh;
+            width: 50vh;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: .5s;
+            .result {
+                padding: 3px;
+                border-radius: 5px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 2px;
+                background: darken(white, 10%);
+                font-size: 15px;
+                text-align: left;
+                flex-wrap: nowrap;
+                .info{
+                    display: flex;
+                    img {
+                        height: 40px !important;
+                        width: 40px !important;
+                        margin-left: 15px;
+                    }
+                    .text {
+                        display: flex;
+                        flex-direction: column;
+                        margin: 0px 8px;
+                    }
+                }
+                
+                a {
+                    &.song {
+                        color: red;
+                    }
+                    &.artist {
+                        color: black;
+                    }
+                }
+                svg {
+                    margin-right: 30px;
+                    flex-shrink: 0;
+                    font-size: 25px;
+                    transition: .1s;
+                    &.button {
+                        cursor: pointer;
+                        &:hover {
+                            color: red;
+                        }
+                    
+                    }
+                   
+                }
+            }
+        }
+
+        #pagination {
+            display: flex;
+            justify-content: space-evenly;
+            font-weight: bold;
+            .link {
+                &.disabled {
+                    color: grey;
+                    cursor: default;
+                }
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+}
